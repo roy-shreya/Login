@@ -1,0 +1,64 @@
+body{
+    background-image: url("images/background.png");
+    font-family: 'Sarabun', sans-serif;
+    min-height:550px;
+}
+input{
+    width: 100%;
+    margin-top: 40px ;
+    font-size: 30px;
+}
+
+a{
+    color:#444444;
+    padding: 10px;
+    text-decoration:none;
+    font-size: 15px;
+}
+
+h2, h5, p{
+    text-align: center;
+}
+
+button{    
+    margin-top: 20px;
+    float: right;
+}
+
+.row{    
+    color: #ffffff
+}
+
+.login-reg-panel{
+    width:70%;
+    margin: 8% 15% ;
+    height:400px;
+    background-color: #d54062;
+    border-radius: 5px;
+}
+
+.loginPanel{    
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 0 15px 9px #00000096;
+    height: 500px;
+    position: absolute;
+    top: 70px;
+    left: 20%;
+    width: 30%; 
+}
+
+.registrationPanel{
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 0 15px 9px #00000096;
+    height: 500px;
+    position: absolute;
+    top: 70px;
+    right: 20%;
+    width: 30%; 
+}
+
+.col-sm-6{
+    padding: 10%
+}
